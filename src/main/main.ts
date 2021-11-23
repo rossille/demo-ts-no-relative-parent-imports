@@ -1,4 +1,4 @@
-import { Dependency } from '../dependency/dependency'
+import type { Dependency } from '../dependency/dependency'
 
 export class Main {
   private readonly dependency: Dependency

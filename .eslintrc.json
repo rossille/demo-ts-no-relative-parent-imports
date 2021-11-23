@@ -1,13 +1,10 @@
 {
-  "extends": [
-    "plugin:import/typescript"
-  ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "import",
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "local-rules"
   ],
   "rules": {
-    "import/no-relative-parent-imports": "error"
+    "local-rules/no-relative-parent-imports": "error"
   }
 }
